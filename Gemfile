@@ -40,7 +40,7 @@ gem "geocoder", "1.3.4"
 gem "figaro", ">= 1.0.0"
 gem 'carrierwave', '0.10.0'
 gem "fog"
-
+gem 'simple_form'
 # Use unicorn as the app server
 # gem 'unicorn'
 
