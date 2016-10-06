@@ -1,8 +1,13 @@
 Flixter::Application.routes.draw do
   devise_for :users
-  root 'static_pages#index'
+  root 'static_pages#index' 
+  # GET/lessons/new
+
   resources :courses, only: [:index, :show]
+  resources :lessons, only: [:show]
   namespace :instructor do
+    # GET/instructor/lessons/new
+    #resources :lessons, only: [:new]
     resources :sections, only: [] do
       resources :lessons, only: [:new, :create]
     end

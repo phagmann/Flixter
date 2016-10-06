@@ -41,6 +41,8 @@ gem "figaro", ">= 1.0.0"
 gem 'carrierwave', '0.10.0'
 gem "fog"
 gem 'simple_form'
+gem 'mini_magick', '~> 4.3.1'
+gem 'carrierwave-aws'
 # Use unicorn as the app server
 # gem 'unicorn'
 
