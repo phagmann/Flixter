@@ -1,4 +1,5 @@
 # Add configuration values here, as shown below.
+#
 AWS_ACCESS_KEY: "AKIAJNBIMDAUFKPZ5ZTA"
 AWS_SECRET_KEY: "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"
 AWS_BUCKET: "firehosepatrick"
