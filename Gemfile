@@ -8,7 +8,6 @@ gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails' , '>= 3.2'
 gem 'bootstrap-sass', '~> 3.3.5.1'
-gem 'simple_form'
 gem 'devise', '>= 3.2.4'
 gem 'sprockets', '2.11.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -22,7 +21,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
@@ -43,6 +42,7 @@ gem "fog"
 gem 'simple_form'
 gem 'mini_magick', '~> 4.3.1'
 gem 'carrierwave-aws'
+gem 'stripe'
 # Use unicorn as the app server
 # gem 'unicorn'
 
