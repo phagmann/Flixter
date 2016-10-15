@@ -43,6 +43,8 @@ gem 'simple_form'
 gem 'mini_magick', '~> 4.3.1'
 gem 'carrierwave-aws'
 gem 'stripe'
+gem 'ranked-model'
+gem 'jquery-ui-rails'
 # Use unicorn as the app server
 # gem 'unicorn'
 
